@@ -1,9 +1,9 @@
 # Brief
-从
+Customed for a specific project.
 
 # Usage
 ```cpp
-#include "spec.h"
+#include "spech.h"
 
 int main()
 {
@@ -12,4 +12,9 @@ int main()
 ```
 
 # Compile
+**Opencv** required
 $ g++ -o outputFile YourFile.cpp spech.cpp -lstdc++ -lm -lopencv_imgcodecs $(pkg-config --cflags --libs opencv)
+
+# Aknowledgement
+Sigpack
+Opencv
