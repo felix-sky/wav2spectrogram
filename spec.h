@@ -33,6 +33,8 @@ typedef struct WAV_HEADER {
 /// 鉴于某matlab使用了未知归一化方法，所以只能保证大概和它一样
 /// @param path: 要读取的wav的路径
 /// @param save_path: 要保存的路径
+/// @param width: 图片的宽度
+/// @param height: 图片的高度
 //////////////////////////////////
 void wave2spec(const char *, const char *, int width=800, int height=800);
 

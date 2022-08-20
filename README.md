@@ -12,4 +12,4 @@ int main()
 ```
 
 # Compile
-$ g++ -o outputfile YourFiel.cpp spech.cpp -lstdc++ -lm -lopencv_imgcodecs $(pkg-config --cflags --libs opencv)
+$ g++ -o outputFile YourFile.cpp spech.cpp -lstdc++ -lm -lopencv_imgcodecs $(pkg-config --cflags --libs opencv)
