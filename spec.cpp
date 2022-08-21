@@ -1,6 +1,6 @@
 #include "spec.h"
 using namespace sp;
-void wave2spec(const char * path, const char * save_path, int width=800, int height=800)
+void wave2spec(const char * path, const char * save_path, int width, int height)
 {
     wav_header wavHeader;
     // 读取wav文件

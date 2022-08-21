@@ -13,7 +13,7 @@ int main()
 
 # Compile
 **Opencv** required
-$ g++ -o outputFile YourFile.cpp spech.cpp -lstdc++ -lm -lopencv_imgcodecs $(pkg-config --cflags --libs opencv)
+$ g++ -o outputFile YourFile.cpp spec.cpp -lstdc++ -lm -lopencv_imgcodecs $(pkg-config --cflags --libs opencv)
 
 # Aknowledgement
 Sigpack
